@@ -1,0 +1,38 @@
+[criar projeto]
+$ ng new curso-angular-potifolio
+$ -> scss
+$ -> SSR = N
+======================================
+
+# Não é correto, mas também não é errado.
+
+[ HTML ] Header Component
+https://github.com/troquatte/curso-angular-portfolio
+
+$ ng g c modules/portifolio/pages/home
+$ ng g c modules/portifolio/components/header
+
+[ HTML ] Knowledge Component
+
+$ ng g c modules/portifolio/components/knowledge
+
+[ HTML ] Experiences Component
+$ ng g c modules/portifolio/components/experiences
+
+[ HTML ] Projects Component
+$ ng g c modules/portifolio/components/projects
+
+[Configurando o SMECSS com SCSS]
+https://material.angular.io/
+[MatDialogModule]
+
+$ ng add @angular/material
+
+UPDATE src/app/app.config.ts (347 bytes)
+UPDATE angular.json (3132 bytes)  
+UPDATE src/index.html (543 bytes) 
+UPDATE src/styles.scss (182 bytes)
+
+//smecss <- pesquisar sobre
+
+$ ng g c modules/portifolio/components/dialog/dialog-projects/
